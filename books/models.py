@@ -15,4 +15,4 @@ class Book(models.Model):
         self.save()
 
     def __str__(self):
-        return self.book_title
+        return self.book_title + ' - ' + self.author
